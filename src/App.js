@@ -94,7 +94,7 @@ function App() {
       <Alert alert={alert} />
       <div className="container my-3">
         {/* <Routes> */}
-        {/* <Route path="/about" element={<About />} /> */}
+        {/* <Route path="/about" element={<About mode={mode} />} /> */}
         {/* <Route
               path="/"
               element={ */}
@@ -103,6 +103,7 @@ function App() {
           heading="Enter Text to Analyze below"
           mode={mode}
         />
+        {/* <About mode={mode} /> */}
         {/* }
               /> */}
         {/* </Routes> */}

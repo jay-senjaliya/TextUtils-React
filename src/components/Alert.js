@@ -6,8 +6,8 @@ export default function Alert(props) {
     return lower.charAt(0).toUpperCase() + lower.slice(1);
   };
   return (
-    props.alert && (
-      <div>
+    <div style={{ height: 50 }}>
+      {props.alert && (
         <div
           className="alert alert-warning alert-dismissible fade show"
           role="alert"
@@ -20,7 +20,7 @@ export default function Alert(props) {
             aria-label="Close"
           ></button> */}
         </div>
-      </div>
-    )
+      )}
+    </div>
   );
 }
